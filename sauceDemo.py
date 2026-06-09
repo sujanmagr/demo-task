@@ -12,7 +12,7 @@ driver.maximize_window()
 url="https://www.saucedemo.com/"
 driver.get(url)
 driver.implicitly_wait(15)
-
+#modified code 
 username=driver.find_element(By.NAME,"user-name")
 password=driver.find_element(By.NAME,"password")
 username.send_keys("standard_user")
